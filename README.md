@@ -1,6 +1,6 @@
 # TechAECian - SPNREC Araria
 
-Welcome to the official repository of the SPNREC Tech Club of Araria College! Our goal is to promote and encourage students to learn about technology and its various applications. Here, we organize events and activities to help our members develop their technical skills and create a community of tech enthusiasts.
+> Welcome to the official repository of the SPNREC Tech Club of Araria College! Our goal is to promote and encourage students to learn about technology and its various applications. Here, we organize events and activities to help our members develop their technical skills and create a community of tech enthusiasts.
 
 ## What we offer
 
@@ -15,8 +15,6 @@ Welcome to the official repository of the SPNREC Tech Club of Araria College! Ou
 If you have any questions or would like to collaborate with us, feel free to reach out to us at [techaecian@gmail.com](mailto:techaecian@gmail.com) or through our official social media handles.
 
 We look forward to having you as a member of the SPNREC Tech Club!
-
-> techAECian is the tech community of SPNREC, Araria Students.
 
 ## Technology Uses
 
