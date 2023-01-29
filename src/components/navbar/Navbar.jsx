@@ -35,10 +35,11 @@ const Navbar = () => {
                 <div className="aec__navbar-menu__icon">
                     {menuToggle ? <RiCloseLine onClick={menuToggler} /> : <BiMenuAltRight onClick={menuToggler} />}
                 </div>
-                {menuToggle && <div className="aec__navbar-menu__container ">
+                {menuToggle && <div className="aec__navbar-menu__container">
                     <div className="aec__navbar-menu__container-links" onClick={menuToggler}>
                         <Links />
                         <div className="aec__navbar-menu__container-sign">
+                            <hr color='#ff6600' />
                             <p>Sign In</p>
                             <button>Sign Up</button>
                         </div>
