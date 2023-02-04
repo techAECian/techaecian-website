@@ -1,3 +1,4 @@
+/* home header stylling */
 .aec__home-header {
   display: flex;
 }
@@ -88,5 +89,65 @@
   .aec__home-header__content-links-container button,
   .aec__home-header__content-links-container a {
     font-size: 12px;
+  }
+}
+
+/* Home intro styling  */
+
+.aec__home-intro {
+  display: flex;
+  margin-top: 5px;
+}
+
+.aec__home-intro__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.aec__home-intro__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.aec__home-intro__content h1 {
+  margin-top: 30px;
+  font-family: var(--font-family);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 130%;
+  color: var(--h1-color);
+}
+
+.aec__home-intro__content p {
+  margin-top: auto;
+  font-family: var(--font-family);
+  color: var(--caption-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 890px) {
+  .aec__home-intro {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aec__home-intro__content h1 {
+    margin-top: 15px;
+    font-size: 35px;
+  }
+
+  .aec__home-intro__content p {
+    font-size: 16px;
   }
 }
